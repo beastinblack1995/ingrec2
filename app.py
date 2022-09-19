@@ -7,7 +7,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 
 import keras
-
+print('as')
 
 # Create Flask object to run
 app = Flask(__name__,template_folder= 'templates' )
